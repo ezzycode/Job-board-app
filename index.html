@@ -4,35 +4,52 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale.0" />
     <title>JobPortal</title>
-    <link rel="stylesheet" href="stylesheet.CSS" />
+    <link rel="stylesheet" href="stylesheet.css" />
   </head>
 
   <body>
     <header>
       <hr />
       <h1>EZZY JOBS BOARD</h1>
+      <hr />
+
       <input
         type="text"
         id="searchInput"
         placeholder="Search job title, company, or location..."
       />
 
-      <nav style="margin-top: 10px; text-decoration: underline; display: float">
-        <ol>
+      <nav
+        style="
+          margin-top: 10px;
+          text-decoration: underline;
+          display: float;
+          text-align: right;
+        "
+      >
+        <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="login.html">Login</a></li>
           <li><a href="register.html">Register</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
-        </ol>
+        </ul>
       </nav>
     </header>
+
     <hr />
+
     <main>
-      <h2>Welcome to EZZY Job Board</h2>
+      <h2>EZZY JOBS BOARD</h2>
+      <p>Are you tired of sending cold emails and not getting responses?</p>
+      <p>
+        Look no further! At EZZY Jobs Board, we connect job seekers with top
+        employers in various industries. Whether you're a seasoned professional
+        or just starting your career, we have something for everyone.
+      </p>
       <img
         style="
-          width: 300px;
+          width: 700px;
           height: 450px;
           background-color: rgba(207, 233, 13, 0.73);
         "
@@ -40,15 +57,18 @@
         alt="Job Board Banner"
         class="banner-image"
       />
-      <h2>Welcome to EZZY Job Board</h2>
+      <h2>.....Welcome to EZZY Jobs Board</h2>
       <!--Jobs will be rendered here by Javascript-->
       <div id="jobListings"></div>
     </main>
+
     <div class="Apply-link">
       <h2>Login to Apply</h2>
       <p>Already have an account? <a href="login.html">Login here</a></p>
       <button onclick="location.href='login.html'">login Page</button>
+      <p>Register <a href="register.html">here</a></p>
     </div>
+
     <footer>
       <p>&copy; 2025 EZZy Careers. All rights reserved.</p>
       <p>

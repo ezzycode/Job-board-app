@@ -7,7 +7,7 @@
 
 body {
   background-color: rgba(237, 200, 36, 0.5);
-  color: rgba(72, 90, 4, 0.8);
+  font-family: Arial, monospace;
 }
 
 header {
@@ -28,7 +28,7 @@ header input {
 }
 
 main {
-  padding: 12rem;
+  padding: 2rem;
 }
 
 #jobListings {
